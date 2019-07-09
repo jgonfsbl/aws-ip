@@ -1,0 +1,13 @@
+#
+# -- DATABASE SCHEMA -----------------------------------------------------------------------------
+#
+CREATE TABLE `ip` (
+  `idx` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `aws-token` varchar(10) NOT NULL DEFAULT '' COMMENT 'syncToken',
+  `date-creation` varchar(19) NOT NULL DEFAULT '' COMMENT 'createDate',
+  `ip-prefix` varchar(18) NOT NULL DEFAULT '' COMMENT 'ip_prefix',
+  `region` varchar(20) NOT NULL DEFAULT '' COMMENT 'region',
+  `service` varchar(50) NOT NULL DEFAULT '' COMMENT 'service',
+  PRIMARY KEY (`idx`)
+) ENGINE=InnoDB AUTO_INCREMENT=1623 DEFAULT CHARSET=utf8mb4;
+
