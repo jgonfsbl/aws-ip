@@ -7,7 +7,7 @@ In order to make this piece of software to work you need a MariaDB/MySQL RDMS. O
 ## Environment variables
 This microservice uses environment variables in order to configure database access. This is a security measure to avoid leaving credentials hardcoded in software. 
 
-In order to make this piece of software to work you need to either define environment variables yourself in your shell or create a file named `.env`. In both cases, the contents needed are this:
+In order to make this piece of software to work you need to either define environment variables yourself in your shell or create a file named `.env` beside the file [app.py](app.py). In both cases, the contents needed are this:
 
 ```
 export DB_HOST="put_your_host_or_ip_here"
