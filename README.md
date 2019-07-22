@@ -1,3 +1,4 @@
+https://travis-ci.org/ea1het/aws-ip.svg?branch=master
 # AWS IP
 A microservice to capture, store and supervise AWS IPs 
 
