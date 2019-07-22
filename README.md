@@ -1,4 +1,5 @@
-https://travis-ci.org/ea1het/aws-ip.svg?branch=master
+[![Build Status](https://travis-ci.org/ea1het/aws-ip.svg?branch=master)](https://travis-ci.org/ea1het/aws-ip)
+
 # AWS IP
 A microservice to capture, store and supervise AWS IPs 
 
